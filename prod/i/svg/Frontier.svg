@@ -1,6 +1,1 @@
-<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg" fill="currentcolor" stroke="currentcolor" stroke-linejoin="round">
-  <g transform="matrix(.92 0 0 1.08 20 -17)">
-    <rect x="16" y="16" width="480" rx="10" height="100"/>
-    <path stroke-width="20" d="M26 250l214 230h88l-72-230h230v-90H26z"/>
-  </g>
-</svg>
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg" fill="currentcolor" stroke="currentcolor" stroke-linejoin="round"><g transform="matrix(.92 0 0 1.08 20 -17)"><rect x="16" y="16" width="480" rx="10" height="100"/><path stroke-width="20" d="M26 250l214 230h88l-72-230h230v-90H26z"/></g></svg>
