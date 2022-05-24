@@ -1,7 +1,9 @@
 {
   "name": "@autometaos/ui",
+  "type": "module",
   "scripts": {
-    "git": "git add . && read msg && git commit -m \"$msg\" && git push"
+    "git": "git add . && read msg && git commit -m \"$msg\" && git push",
+    "build": "node ./build.js"
   },
   "author": "",
   "license": "MIT"

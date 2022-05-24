@@ -1,9 +1,10 @@
 # UI
 
-Generic -i
-AutoMeta-x
-
-
+```
+Generic  - i
+AutoMeta - x
+AMOS/Web - w
+```
 
 Make uniform icon set
 Play with fonts
