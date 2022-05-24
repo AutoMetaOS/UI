@@ -1,0 +1,8 @@
+{
+  "name": "@autometaos/ui",
+  "scripts": {
+    "git": "git add . && read msg && git commit -m \"$msg\" && git push"
+  },
+  "author": "",
+  "license": "MIT"
+}
