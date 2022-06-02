@@ -2,7 +2,7 @@
   "name": "@autometaos/ui",
   "type": "module",
   "scripts": {
-    "git": "git add . && read msg && git commit -m \"$msg\" && git push",
+    "git": "sh ./scripts/git.sh",
     "build:scss": "sass --no-source-map --style=compressed --update scss:css",
     "build:icons": "node ./scripts/icons.js",
     "build": "sh ./scripts/build.sh"
