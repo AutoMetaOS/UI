@@ -3,11 +3,14 @@
   "type": "module",
   "scripts": {
     "git": "git add . && read msg && git commit -m \"$msg\" && git push",
-    "build": "node ./build.js"
+    "build:scss": "sass --no-source-map --style=compressed --update scss:css",
+    "build:icons": "node ./scripts/icons.js",
+    "build": "sh ./scripts/build.sh"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "html-minifier": "^4.0.0"
+    "html-minifier": "^4.0.0",
+    "sass": "^1.52.1"
   }
 }

@@ -1,6 +1,13 @@
 import { minify } from "html-minifier";
 import fs from "fs";
 
+const ensure = ( dir ) => {
+    if ( !fs.existsSync( dir ) ) {
+        fs.mkdirSync( dir, { recursive: true } );
+    };
+    return 0;
+};
+
 const minify_config = {
     removeAttributeQuotes: false,
     removeRedundantAttributes: true,
@@ -15,12 +22,13 @@ const minify_config = {
 };
 
 const maps = [
-    { from: "./src", to: './prod/x/svg' },
-    { from: "./gen", to: './prod/i/svg' },
-    { from: "./src/web", to: './prod/w/svg' },
+    { from: "./icons/src", to: './prod/x/svg' },
+    { from: "./icons/gen", to: './prod/i/svg' },
+    { from: "./icons/src/web", to: './prod/w/svg' },
 ];
 
 maps.forEach( ( { from, to } ) => {
+    ensure( to );
     fs.readdirSync( from ).forEach( file => {
         if ( file.includes( '.svg' ) ) {
             const file_data = fs.readFileSync( `${ from }/${ file }`, 'utf8' );
