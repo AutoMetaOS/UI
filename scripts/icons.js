@@ -22,9 +22,9 @@ const minify_config = {
 };
 
 const maps = [
-    { from: "./icons/src", to: './prod/x/svg' },
-    { from: "./icons/gen", to: './prod/i/svg' },
-    { from: "./icons/src/web", to: './prod/w/svg' },
+    { from: "./icons/src", to: './build/icons/x/svg' },
+    { from: "./icons/gen", to: './build/icons/i/svg' },
+    { from: "./icons/src/web", to: './build/icons/w/svg' },
 ];
 
 maps.forEach( ( { from, to } ) => {
