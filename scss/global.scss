@@ -319,15 +319,46 @@ textarea {
 }
 
 .p-abs {
-	position: absolute !important;
+	&-abs {
+		position: absolute !important;
+	}
+	&-fix{
+		position: fixed !important;
+	}
+	&-rel {
+		position: relative !important;
+	}
 }
 
-.p-fix {
-	position: fixed !important;
+.abs{
+	&-top{
+		--top: 0px;
+		top: var(--pos);
+	}
+	&-right{
+		--right: 0px;
+		right: var(--pos);
+	}
+	&-bottom{
+		--bottom: 0px;
+		bottom: var(--pos);
+	}
+	&-left{
+		--left: 0px;
+		left: var(--pos);
+	}
 }
 
-.p-rel {
-	position: relative !important;
+.d{
+	&-n{
+		display: none;
+	}
+	&-ib{
+		display: inline-block;
+	}
+	&-u{
+		display: unset;
+	}
 }
 
 // COMPOUNDS
@@ -339,31 +370,4 @@ textarea {
 
 .hover:hover {
 	opacity: 1;
-}
-
-$transition: 0.4s;
-
-.fade {
-	will-change: opacity;
-	animation: fade $transition ease-in forwards;
-
-	&-right {
-		will-change: opacity, transform;
-		animation: fade-right $transition ease-in forwards;
-	}
-
-	&-left {
-		will-change: opacity, transform;
-		animation: fade-left $transition ease-in forwards;
-	}
-
-	&-down {
-		will-change: opacity, transform;
-		animation: fade-down $transition ease-in forwards;
-	}
-
-	&-up {
-		will-change: opacity, transform;
-		animation: fade-up $transition ease-in forwards;
-	}
 }

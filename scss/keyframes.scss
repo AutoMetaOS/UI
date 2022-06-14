@@ -1,3 +1,30 @@
+$transition: 0.4s;
+
+.fade {
+	will-change: opacity;
+	animation: fade $transition ease-in forwards;
+
+	&-right {
+		will-change: opacity, transform;
+		animation: fade-right $transition ease-in forwards;
+	}
+
+	&-left {
+		will-change: opacity, transform;
+		animation: fade-left $transition ease-in forwards;
+	}
+
+	&-down {
+		will-change: opacity, transform;
+		animation: fade-down $transition ease-in forwards;
+	}
+
+	&-up {
+		will-change: opacity, transform;
+		animation: fade-up $transition ease-in forwards;
+	}
+}
+
 @keyframes fade{
     0%{
         opacity: 0;
