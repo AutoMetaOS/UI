@@ -7,70 +7,62 @@
 </defs>
 <!--o-->
 <g id="o">
-    <animateTransform attributeName="transform" attributeType="XML"
+    <animateTransform attributeName="transform"
                           type="scale"
-                          from="1" to="0.45"
+                          values="1;0.45"
                           dur="1s"
-                          repeatCount="1" dur="1s"
                           additive="sum" fill="freeze" />
 
 
-    <animateTransform attributeName="transform" attributeType="XML"
+    <animateTransform attributeName="transform"
                           type="translate"
-                          from="0,0" to="450,312"
+                          values="0,0;450,312"
                           dur="1s"
-                          repeatCount="1" dur="1s"
                           additive="sum" fill="freeze" />
     <circle cx="50%" cy="50%" r="calc(50% - 20px)"/>
 </g>
 <g id="p" transform="scale(1.01) translate(-2,-2)">
     <animateTransform attributeName="transform" attributeType="XML"
                           type="scale"
-                          from="1" to="0.45"
+                          values="1;0.45"
                           dur="1s"
-                          repeatCount="1" dur="1s"
                           additive="sum" fill="freeze" />
 
 
     <animateTransform attributeName="transform" attributeType="XML"
                           type="translate"
-                          from="0,0" to="100,312"
+                          values="0,0;100,312"
                           dur="1s"
-                          repeatCount="1" dur="1s"
                           additive="sum" fill="freeze" />
     <path d="m 256 32 l 0 448 m -224 -223 l 448 0" />
 </g>
 <g id="l" transform="scale(1) translate(1)">
     <animateTransform attributeName="transform" attributeType="XML"
                           type="scale"
-                          from="1" to="0.5"
+                          values="1;0.5"
                           dur="1s"
-                          repeatCount="1" dur="1s"
                           additive="sum" fill="freeze" />
 
 
     <animateTransform attributeName="transform" attributeType="XML"
                           type="translate"
-                          from="0,0" to="-100,256"
+                          values="0,0;-100,256"
                           dur="1s"
-                          repeatCount="1" dur="1s"
                           additive="sum" fill="freeze" />
     <path d="M 320 480 L 128 256 L 320 32" />
 </g>
 <g  id="r" transform="scale(1) translate(1)">
     <animateTransform attributeName="transform" attributeType="XML"
                           type="scale"
-                          from="1" to="0.5"
+                          values="1;0.5"
                           dur="1s"
-                          repeatCount="1" dur="1s"
                           additive="sum" fill="freeze" />
 
 
     <animateTransform attributeName="transform" attributeType="XML"
                           type="translate"
-                          from="0,0" to="612,256"
+                          values="0,0;612,256"
                           dur="1s"
-                          repeatCount="1" dur="1s"
                           additive="sum" fill="freeze" />
     <path d="M 192 480 L 384 256 L 192 32" />
 </g>

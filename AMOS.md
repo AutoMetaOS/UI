@@ -1,11 +1,9 @@
 # Experiments
 <img src="./icons/test/239Full.svg" height="256px" width="512px" />
 <img src="./icons/test/glow.svg" height="256px" width="256px" />
-<img src="./icons/test/239Beg.svg" height="256px" width="256px" />
-<img src="./icons/test/239End.svg" height="256px" width="256px" />
-<img src="./icons/test/239EndColor.svg" height="256px" width="256px" />
-<img src="./icons/test/239EndColorBorder.svg" height="256px" width="256px" />
-<img src="./icons/test/239EndColorInv.svg" height="256px" width="256px" />
+<img src="./icons/test/239.svg" height="256px" width="256px" />
+<img src="./icons/test/239Border.svg" height="256px" width="256px" />
+<img src="./icons/test/239Filled.svg" height="256px" width="256px" />
 
 # General
 <img src="./icons/src/amos.svg" height="128px" width="128px" />
