@@ -1,0 +1,25 @@
+<svg viewbox="0 0 512 256" width="512" height="256" xmlns="http://www.w3.org/2000/svg" stroke-linecap="round" stroke-linejoin="round" stroke="#fff" stroke-width="10" fill="none">
+<defs>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+    </style>
+   <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="grad">
+      <stop stop-color="#FF00AC" offset="0%"></stop>
+      <stop stop-color="#5D00C4" offset="100%"></stop>
+    </linearGradient>
+</defs>
+<rect stroke="none" fill="url(#grad)" x="0" y="0" width="100%" height="100%"  rx="5%"/>
+
+<text font-family="Lato" stroke="none" fill="#fff"
+        x="-0" y="160" font-size="86" font-weight="100"
+        >PLU&nbsp;&emsp;&nbsp;NIUM</text>
+
+<g transform="scale(0.4) translate(280,129)">
+<g transform="scale(0.45) translate(450,312)">
+    <circle cx="50%" cy="50%" r="calc(50% - 20px)"/>
+</g>
+<g transform="scale(0.35) translate(300,312)">
+    <path d="m 256 32 l 0 448 m -224 -223 l 448 0" />
+</g>
+</g>
+</svg>
