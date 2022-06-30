@@ -10,7 +10,7 @@
 </defs>
 <rect stroke="none" fill="url(#grad)" x="0" y="0" width="100%" height="100%"  rx="5%"/>
 
-<g font-family="Lato, Helvetica" stroke="none" fill="#fff" font-size="86" font-weight="100">
+<g font-family="Lato, Helvetica" stroke="none" fill="#fff" font-size="86" font-weight="thin">
 <text x="0" y="160">PLU</text>
 <text x="278" y="160">NIUM</text>
 </g>
