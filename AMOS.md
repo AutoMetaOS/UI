@@ -15,6 +15,7 @@
 <img src="./icons/src/plutonium.svg" height="128px" width="128px" />
 <img src="./icons/src/ursus.svg" height="128px" width="128px" />
 <img src="./icons/src/x10.svg" height="128px" width="128px" />
+<img src="./icons/src/x10sn.svg" height="128px" width="128px" />
 
 # Web
 <img src="./icons/src/web/books.svg" height="128px" width="128px" />
